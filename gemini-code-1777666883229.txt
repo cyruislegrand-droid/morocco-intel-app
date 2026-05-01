@@ -1,0 +1,8 @@
+morocco-intel-engine/
+├── app.py                # Main Streamlit Interface
+├── engine/
+│   ├── scraper.py        # Real-time News & Stock Scraper
+│   ├── analysis.py       # Sentiment & Network Analysis (Gephi-style)
+│   └── model.py          # Predictive Modeling
+├── requirements.txt      # Dependencies
+└── README.md             # Deployment Instructions

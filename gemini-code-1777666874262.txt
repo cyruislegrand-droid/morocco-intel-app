@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+beautifulsoup4
+requests
+networkx
+pyvis
+scikit-learn
+statsmodels
