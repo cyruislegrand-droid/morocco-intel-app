@@ -1,3 +1,12 @@
+import sys
+import os
+
+# Adds the current directory to the python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import streamlit as st
+# ... now your engine imports will work
+from engine.analysis import compute_sentiment, build_actor_network
 import streamlit as st
 import pandas as pd
 import numpy as np
