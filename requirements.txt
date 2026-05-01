@@ -7,3 +7,5 @@ networkx
 pyvis
 scikit-learn
 statsmodels
+textblob
+vaderSentiment
