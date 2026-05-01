@@ -1,12 +1,14 @@
-import sys
 import os
+import sys
+import streamlit as st
 
-# Adds the current directory to the python path
+# Path injection to ensure 'engine' is found
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-import streamlit as st
-# ... now your engine imports will work
+# Now import your functions
 from engine.analysis import compute_sentiment, build_actor_network
+from engine.scraper import fetch_moroccan_news, fetch_masi_data
+from engine.model import prepare_predictive_data, train_masi_prediction, get_market_outlook
 import streamlit as st
 import pandas as pd
 import numpy as np
